@@ -1,10 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com</groupId>
-  <artifactId>MavenProject</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  
-  <dependencies>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com</groupId>
+	<artifactId>AutomationTraining</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
 
 		<!--selenium-java for UI automation -->
 		<dependency>
@@ -34,6 +36,19 @@
 			<version>2.0.34</version>
 		</dependency>
 
+		<!-- postgresql to connect with data base-->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.7.7</version>
+		</dependency>
+
+		<!-- testng for assertions and framework support-->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.4.0</version>			
+		</dependency>
 
 	</dependencies>
 
@@ -67,5 +82,6 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-	
+
+
 </project>
