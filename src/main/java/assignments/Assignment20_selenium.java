@@ -103,8 +103,11 @@ public class Assignment20_selenium {
 		//19.Wait for Services page 
 			
 		//20.Scrolldown till Bookstore services
-			WebElement element8 = driver.findElement(By.xpath("//span[starts-with(text(),'Bookstore services:')]"));
-			 js.executeScript("arguments[0].scrollIntoView(true)",element8);
+		/*
+		 * WebElement element8 = driver.findElement(By.
+		 * xpath("//span[starts-with(text(),'Bookstore services:')]"));
+		 * js.executeScript("arguments[0].scrollIntoView(true)",element8);
+		 */
 			 
 			
 		//21.Get total rows, columns in the bookstore service table
